@@ -8,12 +8,14 @@ class Person {
     }
 
     public String getName() {
-        String nama = Name;
-        return Name;
+        return this.Name;
     }
     public int getAge() {
-        int umur = Age;
-        return Age;
+        return this.Age;
+    }
+
+    public void setAge(int age) {
+        Age = age;
     }
 }
 
